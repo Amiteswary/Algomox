@@ -1,0 +1,43 @@
+body{
+    background-color:#DDDDDD;
+    margin-left: 15%;
+    margin-right: 10%;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+    margin:30px;
+    border:solid #B2B2B2;
+    padding-bottom: 25px;
+    transition: transform .30s;
+    text-align: center;
+}
+
+div:hover{
+    
+    transform: scale(1.1);
+    border:solid #3C4048;
+}
+
+@media only screen and (max-width: 700px) {
+    div {
+      width: 49.99999%;
+      margin-left: 15%;
+      margin-right: 10%;
+     
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    div {
+      width: 100%;
+      margin-left: 15%;
+      margin-right: 10%;
+    }
+  }
